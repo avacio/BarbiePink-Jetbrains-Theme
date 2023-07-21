@@ -164,7 +164,9 @@
       "background": "pinkBG",
       "Header": {
         "background": "byzantium"
-      }
+      },
+      "Button.selectedBackground": "skyBlue",
+      "Button.hoverBackground": "byzantium"
     },
     "EditorPane": {
       "inactiveBackground": "#5d4966"
