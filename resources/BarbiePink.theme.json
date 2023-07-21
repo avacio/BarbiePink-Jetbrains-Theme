@@ -28,7 +28,7 @@
 
       "selectionBackground": "plumPink",
       "selectionForeground": "purple",
-      "selectionInactiveBackground": "tickleMePink",
+      "selectionInactiveBackground": "byzantium",
       "selectionBackgroundInactive": "#200010",
 
       "disabledForeground": "mauve",
@@ -51,6 +51,14 @@
       "hoverBackground": "#71468f",
       "hoverInactiveBackground": "#71468f"
     },
+    "EditorTabs": {
+      "selectedForeground": "#eceff1",
+      "underlinedTabBackground": "#5c306f",
+      "background": "#3e1c4c",
+      "underlineColor": "#8b5c8e",
+      "hoverMaskColor": "#71468f",
+      "inactiveMaskColor": "#34244aff"
+    },
     "ActionButton": {
       "hoverBackground": "#512663",
       "pressedBackground": "#402a4b",
@@ -59,6 +67,30 @@
     },
     "NotificationsToolwindow.newNotification.background": "skyBlue",
     "NotificationsToolwindow.newNotification.hoverBackground": "popBlue",
-    "NotificationsToolwindow.Notification.hoverBackground": "popBlue"
+    "NotificationsToolwindow.Notification.hoverBackground": "mulberry",
+
+    "PopupMenu.translucentBackground": "#5d3b6c",
+
+    "MenuBar.borderColor": "#392540",
+    "Menu.borderColor": "#2e2134",
+    "NavBar.borderColor": "#35243d",
+    "Button": {
+      "startBackground": "#643578",
+      "endBackground": "#643578",
+      "startBorderColor": "#2f1f39",
+      "endBorderColor": "#2f1f39",
+      "shadowColor": "#39294c",
+      "focusedBorderColor": "#352040",
+      "default.focusColor": "#2c1d32",
+      "disabledBorderColor": "#25192f",
+      "default": {
+        "startBackground": "#643578",
+        "endBackground": "#643578",
+        "startBorderColor": "#2f1f39",
+        "endBorderColor": "#2f1f39",
+        "focusedBorderColor": "#352040",
+        "focusColor": "#352040"
+      }
+    }
   }
 }
