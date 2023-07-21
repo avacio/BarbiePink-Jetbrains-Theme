@@ -26,7 +26,7 @@
   },
   "ui": {
     "*": {
-      "background": "pinkBG",
+      "background": "bubblegum",
       "foreground": "pale",
       "infoForeground": "pale",
       "successForeground": "pale",
@@ -169,6 +169,13 @@
         "hoverTrackColor": "#3d2240ff",
         "thumbBorderColor": "#22162bff",
         "thumbColor": "#6c499194"
+      }
+    },
+
+    "ToolWindow": {
+      "background": "pinkBG",
+      "Header": {
+        "background": "byzantium"
       }
     }
   }
