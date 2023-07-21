@@ -1,0 +1,64 @@
+{
+  "name": "BarbiePink",
+  "author": "avacio",
+  "dark": true,
+  "editorScheme": "/BarbiePink.xml",
+  "colors": {
+    "lightPink": "#f29ad8",
+    "plumPink": "#E89BCD",
+    "bubblegum": "#DB61B1",
+    "mulberry": "#C2559C",
+    "tickleMePink": "#F28DB2",
+    "magentaHaze": "#9E467F",
+    "byzantium": "#75335e",
+    "purple": "#582876",
+    "pale": "#feeaf5",
+    "white": "#FFFFFF",
+    "mauve": "#7A6582",
+    "black": "#000000",
+    "skyBlue": "#51ABCF",
+    "popBlue": "#60caf4"
+  },
+  "ui": {
+    "*": {
+      "background": "magentaHaze",
+      "foreground": "pale",
+      "infoForeground": "pale",
+      "successForeground": "pale",
+
+      "selectionBackground": "plumPink",
+      "selectionForeground": "purple",
+      "selectionInactiveBackground": "tickleMePink",
+      "selectionBackgroundInactive": "#200010",
+
+      "disabledForeground": "mauve",
+      "disabledBackground": "#280015",
+      "inactiveBackground": "byzantium",
+      "errorForeground": "#cd860b",
+
+      "disabledText": "#646464",
+      "Borders.ContrastBorderColor" : "mauve",
+      "borderColor": "#311f39",
+      "disabledBorderColor": "#271d2b",
+      "focusColor" : "#5a2e6f",
+      "focusedBorderColor": "#5a356d",
+
+      "separatorColor": "#4b2665"
+    },
+    "Button.background": "mulberry",
+    "Panel.background": "mulberry",
+    "Tree": {
+      "hoverBackground": "#71468f",
+      "hoverInactiveBackground": "#71468f"
+    },
+    "ActionButton": {
+      "hoverBackground": "#512663",
+      "pressedBackground": "#402a4b",
+      "hoverBorderColor": "#382447",
+      "pressedBorderColor": "#382140"
+    },
+    "NotificationsToolwindow.newNotification.background": "skyBlue",
+    "NotificationsToolwindow.newNotification.hoverBackground": "popBlue",
+    "NotificationsToolwindow.Notification.hoverBackground": "popBlue"
+  }
+}
