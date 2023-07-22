@@ -6,7 +6,7 @@
   "colors": {
     "lightPink": "#f29ad8",
     "lightestPink": "#e7c0d5",
-    "plumPink": "#E89BCD",
+    "popPink": "#f57aca",
     "bubblegum": "#DB61B1",
     "mulberry": "#C2559C",
     "pinkBG": "#D77EBA",
@@ -23,6 +23,8 @@
     "skyBlue": "#51ABCF",
     "popBlue": "#60caf4",
     "accentText": "#002D3D",
+    "teal": "#2b5b6e",
+    "lightTeal": "#3b8fb0",
     "almond": "#FBF1CB",
     "melon": "#F8C1AC",
     "dark": "#200010",
@@ -32,7 +34,7 @@
   },
   "ui": {
     "*": {
-      "background": "bubblegum",
+      "background": "mulberry",
       "foreground": "pale",
       "infoForeground": "accentText",
       "successForeground": "pale",
@@ -118,6 +120,7 @@
       "visitedForeground": "almond"
     },
     "Popup": {
+      "background": "bubblegum",
       "paintBorder": true,
       "Header.activeBackground": "#563b63",
       "Header.inactiveBackground": "#6c497f",
@@ -250,7 +253,7 @@
       "tagForeground": "white",
       "disabledForeground": "darkMauve",
       "hoverBackground": "bubblegum",
-      "lightSelectionBackground": "lightPink",
+      "lightSelectionBackground": "popPink",
       "Button": {
         "installBackground": "byzantium2",
         "installBorderColor": "dark",
@@ -284,13 +287,14 @@
     },
 
     "MainToolbar": {
+      "background": "bubblegum",
       "Dropdown": {
         "hoverBackground": "lightPink"
       },
       "Icon": {
         "borderInsets": "10,10,10,10",
-        "hoverBackground": "#2b5b6e",
-        "pressedBackground": "#3b8fb0"
+        "hoverBackground": "lightPink",
+        "pressedBackground": "lightestPink"
       }
     },
 
