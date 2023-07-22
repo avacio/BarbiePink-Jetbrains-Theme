@@ -215,12 +215,15 @@
     },
 
     "WelcomeScreen": {
-      "Projects.selectionInactiveBackground": "#372342",
       "separatorColor": "#4c3655",
       "background": "pinkBG",
       "headerBackground": "bubblegum",
       "Details.background": "pinkBG",
-      "SidePanel.background": "bubblegum"
+      "SidePanel.background": "bubblegum",
+      "Projects":
+      {
+        "selectionInactiveBackground": "mauve"
+      }
     },
 
     "Plugins": {
