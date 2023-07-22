@@ -19,15 +19,27 @@
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
       Barbie Pink theme for all the barbz out there &#x1F498;
-    <br/><br/>
-    You are welcome to see the source code here: https://github.com/avacio/BarbiePink-Jetbrains-Theme
+    <br><br>
+    Please excuse the hidden project names, don't want to get in trouble with the day job lol
+    <br>
+    <img src="https://github.com/avacio/BarbiePink-Jetbrains-Theme/blob/main/images/screenshot-welcome.png?raw=true"
+        width="50%" height="50%">
+        <br>
+    <img src="https://github.com/avacio/BarbiePink-Jetbrains-Theme/blob/main/images/screenshot-editor.png?raw=true"
+    width="50%" height="50%">
+        <br><br>
+    You are welcome to see the source code here and fork your own version:
+    <a href="https://github.com/avacio/BarbiePink-Jetbrains-Theme">BarbiePink-Jetbrains-Theme</a>
+
 
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    Initial release of the theme.
+    - Improved theming for multiple windows and sections, e.g. Plugins
+    <br>
+    - Initial release of the theme.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
