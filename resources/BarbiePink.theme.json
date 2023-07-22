@@ -17,19 +17,22 @@
     "pale": "#feeaf5",
     "white": "#FFFFFF",
     "mauve": "#7A6582",
+    "darkMauve": "#4e4157",
     "black": "#000000",
     "skyBlue": "#51ABCF",
     "popBlue": "#60caf4",
+    "accentText": "#002D3D",
     "almond": "#FBF1CB",
     "melon": "#F8C1AC",
     "dark": "#200010",
+    "disableBack": "#3b312f",
     "defaultDisabled": "#646464"
   },
   "ui": {
     "*": {
       "background": "bubblegum",
       "foreground": "pale",
-      "infoForeground": "pale",
+      "infoForeground": "accentText",
       "successForeground": "pale",
       "selectionBackground": "lightestPink",
       "selectionForeground": "dark",
@@ -38,7 +41,7 @@
       "disabledForeground": "mauve",
       "disabledBackground": "#280015",
       "inactiveBackground": "magentaHaze",
-      "errorForeground": "#cd860b",
+      "errorForeground": "darkMauve",
       "disabledText": "defaultDisabled",
       "Borders.ContrastBorderColor": "mauve",
       "borderColor": "#311f39",
@@ -209,13 +212,45 @@
       "Log.Commit.selectionInactiveBackground": "#402a4b",
       "RefLabel.backgroundBase": "#04d9ffff",
       "RefLabel.backgroundBrightness": 0.99
+    },
+
+    "WelcomeScreen": {
+      "Projects.selectionInactiveBackground": "#372342",
+      "separatorColor": "#4c3655",
+      "background": "pinkBG",
+      "headerBackground": "bubblegum",
+      "Details.background": "pinkBG",
+      "SidePanel.background": "bubblegum"
+    },
+
+    "Plugins": {
+      "background": "mulberry",
+      "SectionHeader.background": "byzantium",
+      "tagBackground": "skyBlue",
+      "tagForeground": "white",
+      "disabledForeground": "darkMauve",
+      "hoverBackground": "bubblegum",
+      "lightSelectionBackground": "lightPink",
+      "Button": {
+        "installBackground": "byzantium2",
+        "installBorderColor": "dark",
+        "installForeground": "pale",
+        "updateBackground": "skyBlue",
+        "updateBorderColor": "dark",
+        "updateForeground": "pale"
+      },
+      "Button.installFillForeground": "white",
+      "SearchField.background": "byzantium"
+    },
+
+    "FileColor": {
     }
   },
   "icons": {
     "ColorPalette": {
       "Checkbox.Background.Default.Dark": "#442557",
       "Checkbox.Border.Default.Dark": "#532d68",
-      "Checkbox.Foreground.Selected.Dark": "#6aae41",
+      "Checkbox.Foreground.Selected.Dark": "popBlue",
       "Checkbox.Background.Default": "#532e6a",
       "Checkbox.Background.Disabled": "#321d3d",
       "Checkbox.Background.Disabled.Dark": "#321d3d"
