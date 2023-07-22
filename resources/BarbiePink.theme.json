@@ -78,6 +78,7 @@
     "NotificationsToolwindow.Notification.hoverBackground": "bubblegum",
     "PopupMenu.translucentBackground": "#5d3b6c",
     "MenuBar.borderColor": "#392540",
+
     "NavBar.borderColor": "#35243d",
     "Button": {
       "startBackground": "#643578",
@@ -207,6 +208,8 @@
     "Label.disabledForeground": "mauve",
     "MenuItem.disabledForeground": "disabledLight",
 
+
+
     "VersionControl" :{
       "Log.Commit.currentBranchBackground": "#2e1e38",
       "Log.Commit.unmatchedForeground": "#8f7fa8",
@@ -250,6 +253,11 @@
       "Button.installFillForeground": "white",
       "SearchField.background": "byzantium"
     },
+    "Table": {
+      "focusCellBackground": "lightPink",
+      "lightSelectionBackground": "lightPink",
+      "selectionBackground": "lightPink"
+    },
 
     "FileColor": {
     }
@@ -262,6 +270,7 @@
       "Checkbox.Background.Default": "#532e6a",
       "Checkbox.Background.Disabled": "#321d3d",
       "Checkbox.Background.Disabled.Dark": "#321d3d",
+      "Checkbox.Focus.Wide": "melon",
 
       "Actions.GreyInline.Dark": "melon",
       "Actions.GreyInline": "melon",
@@ -271,8 +280,8 @@
       "Objects.Grey": "mauve",
       "Objects.Red": "#cc241d",
       "Objects.RedStatus": "#cc241d",
-      "Objects.Blue": "skyBlue",
-      "Objects.Purple": "popBlue",
+      "Objects.Blue": "popBlue",
+      "Objects.Purple": "purple",
       "Tree.iconColor": "pale"
     }
   }
