@@ -17,6 +17,7 @@
     "ogSeparator": "#472e53",
     "pale": "#feeaf5",
     "white": "#FFFFFF",
+    "lavender": "#b89dc2",
     "mauve": "#7A6582",
     "darkMauve": "#4e4157",
     "black": "#000000",
@@ -42,11 +43,11 @@
       "selectionForeground": "dark",
       "selectionInactiveBackground": "mulberry",
       "selectionBackgroundInactive": "mulberry",
-      "disabledForeground": "mauve",
+      "disabledForeground": "lavender",
       "disabledBackground": "#280015",
       "inactiveBackground": "magentaHaze",
       "errorForeground": "darkMauve",
-      "disabledText": "defaultDisabled",
+      "disabledText": "lavender",
       "Borders.ContrastBorderColor": "mauve",
       "borderColor": "#311f39",
       "disabledBorderColor": "#271d2b",
@@ -92,7 +93,6 @@
       "shadowColor": "#39294c",
       "focusedBorderColor": "#352040",
       "default.focusColor": "#2c1d32",
-      "disabledBorderColor": "#25192f",
       "default": {
         "startBackground": "#643578",
         "endBackground": "#643578",
@@ -101,7 +101,8 @@
         "focusedBorderColor": "#352040",
         "focusColor": "#352040"
       },
-      "disabledText": "disabledLight"
+      "disabledText": "lavender",
+      "disabledBorderColor": "darkMauve"
     },
     "ProgressBar": {
       "trackColor": "#412647",
@@ -208,7 +209,7 @@
       "nonEditableBackground": "#55356c",
       "ArrowButton": {
         "iconColor": "#e3e2f1",
-        "disabledIconColor": "#86828b",
+        "disabledIconColor": "mauve",
         "nonEditableBackground": "#674082"
       }
     },
@@ -295,6 +296,33 @@
         "hoverBackground": "lightPink",
         "pressedBackground": "lightPink"
       }
+    },
+
+    "TextArea": {
+      "background": "teal",
+      "caretForeground": "darkTeal",
+      "foreground": "white",
+      "inactiveBackground": "darkMauve",
+      "inactiveForeground": "lavender",
+      "selectionBackground": "lightestPink",
+      "selectionForeground": "dark"
+    },
+    "TextField": {
+      "background": "teal",
+      "caretForeground": "darkTeal",
+      "foreground": "white",
+      "inactiveForeground": "lavender",
+      "selectionBackground": "lightestPink",
+      "selectionForeground": "dark"
+    },
+    "TextPane": {
+      "background": "teal",
+      "caretForeground": "darkTeal",
+      "foreground": "white",
+      "inactiveBackground": "darkMauve",
+      "inactiveForeground": "lavender",
+      "selectionBackground": "lightestPink",
+      "selectionForeground": "dark"
     },
 
     "FileColor": {
