@@ -56,7 +56,9 @@
     "Tree": {
       "hoverBackground": "#71468f",
       "hoverInactiveBackground": "#71468f",
-      "modifiedItemForeground": "skyBlue"
+      "modifiedItemForeground": "skyBlue",
+      "paintLines": true,
+      "rowHeight": 22
     },
     "EditorTabs": {
       "selectedForeground": "dark",
@@ -169,10 +171,17 @@
     "ToolWindow": {
       "background": "pinkBG",
       "Header": {
-        "background": "byzantium"
+        "background": "byzantium",
+        "inactiveBackground": "byzantium2"
       },
       "Button.selectedBackground": "byzantium2",
-      "Button.hoverBackground": "byzantium"
+      "Button.hoverBackground": "byzantium",
+
+      "HeaderTab": {
+        "selectedInactiveBackground": "#8e6ea3ff",
+        "hoverBackground": "#815d93ff",
+        "hoverInactiveBackground": "#7f6392ff"
+      }
     },
     "EditorPane": {
       "inactiveBackground": "#5d4966"
@@ -259,6 +268,32 @@
       "selectionBackground": "lightPink"
     },
 
+    "MemoryIndicator": {
+      "usedBackground": "#6f3986",
+      "allocatedBackground": "#4a2b5e"
+    },
+
+    "DragAndDrop": {
+      "areaForeground": "#FFFFFF",
+      "areaBackground": "#7453829a"
+    },
+
+    "RunWidget": {
+      "foreground": "#e2e2e2",
+      "runningBackground": "magentaHaze"
+    },
+
+    "MainToolbar": {
+      "Dropdown": {
+        "hoverBackground": "lightPink"
+      },
+      "Icon": {
+        "borderInsets": "10,10,10,10",
+        "hoverBackground": "#2b5b6e",
+        "pressedBackground": "#3b8fb0"
+      }
+    },
+
     "FileColor": {
     }
   },
@@ -280,9 +315,14 @@
       "Objects.Grey": "mauve",
       "Objects.Red": "#cc241d",
       "Objects.RedStatus": "#cc241d",
-      "Objects.Blue": "popBlue",
-      "Objects.Purple": "purple",
-      "Tree.iconColor": "pale"
+      "Objects.Blue": "skyBlue",
+      "Objects.Purple": "popBlue",
+      "Tree.iconColor": "pale",
+
+      "Objects.Yellow": "#be9418ff",
+      "Objects.Green": "#009c0eff",
+      "Objects.YellowDark": "#8a6c1aff",
+      "Objects.GreenAndroid": "#008b14ff"
     }
   }
 }
