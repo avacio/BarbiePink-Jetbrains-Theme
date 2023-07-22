@@ -72,10 +72,10 @@
       "inactiveMaskColor": "#663e5dff"
     },
     "ActionButton": {
-      "hoverBackground": "#512663",
-      "pressedBackground": "#402a4b",
-      "hoverBorderColor": "#382447",
-      "pressedBorderColor": "#382140"
+      "hoverBackground": "magentaHaze",
+      "pressedBackground": "byzantium2",
+      "hoverBorderColor": "magentaHaze",
+      "pressedBorderColor": "byzantium2"
     },
     "NotificationsToolwindow.newNotification.background": "mulberry",
     "NotificationsToolwindow.newNotification.hoverBackground": "bubblegum",
@@ -116,7 +116,7 @@
     "Link": {
       "activeForeground": "almond",
       "hoverForeground": "melon",
-      "pressedForeground": "bubblegum",
+      "pressedForeground": "lightPink",
       "visitedForeground": "almond"
     },
     "Popup": {
@@ -178,11 +178,11 @@
         "inactiveBackground": "byzantium2"
       },
       "Button.selectedBackground": "byzantium2",
-      "Button.hoverBackground": "byzantium",
+      "Button.hoverBackground": "magentaHaze",
 
       "HeaderTab": {
         "selectedInactiveBackground": "#8e6ea3ff",
-        "hoverBackground": "#815d93ff",
+        "hoverBackground": "#9d629cff",
         "hoverInactiveBackground": "#7f6392ff"
       }
     },
@@ -234,7 +234,6 @@
       "RefLabel.backgroundBase": "#04d9ffff",
       "RefLabel.backgroundBrightness": 0.99
     },
-
     "WelcomeScreen": {
       "separatorColor": "#4c3655",
       "background": "pinkBG",
@@ -263,7 +262,7 @@
         "updateForeground": "pale"
       },
       "Button.installFillForeground": "white",
-      "SearchField.background": "byzantium"
+      "SearchField.background": "lightTeal"
     },
     "Table": {
       "focusCellBackground": "lightPink",
@@ -294,7 +293,7 @@
       "Icon": {
         "borderInsets": "10,10,10,10",
         "hoverBackground": "lightPink",
-        "pressedBackground": "lightestPink"
+        "pressedBackground": "lightPink"
       }
     },
 
