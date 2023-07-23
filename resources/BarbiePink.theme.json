@@ -27,6 +27,7 @@
     "skyBlue": "#51ABCF",
     "popBlue": "#60caf4",
     "accentText": "#002D3D",
+    "infoText": "#8c5885",
     "teal": "#2b5b6e",
     "lightTeal": "#3b8fb0",
     "textArea": "#3E6C7E",
@@ -55,7 +56,7 @@
     "*": {
       "background": "mulberry",
       "foreground": "pale",
-      "infoForeground": "accentText",
+      "infoForeground": "infoText",
       "successForeground": "pale",
       "selectionBackground": "lightestPink",
       "selectionForeground": "dark",
@@ -228,8 +229,30 @@
 
     "Editor": {
       "shortcutForeground": "skyBlue",
-      "SearchField.background": "textArea",
-      "infoForeground": "popBlue"
+      "SearchField": {
+        "background": "textArea"
+      },
+      "Label.infoForeground": "yellow",
+      "Component.infoForeground": "yellow"
+    },
+
+    "ParameterInfo": {
+      "infoForeground": "yellow"
+    },
+
+    "SearchEverywhere": {
+      "SearchField": {
+        "infoForeground": "almond"
+      }
+    },
+
+    "SearchField": {
+      "infoForeground": "almond"
+    },
+
+    "SearchMatch": {
+      "endBackground": "#8ec07c",
+      "startBackground": "#8ec07c"
     },
 
     "ComboBox": {
@@ -292,7 +315,7 @@
         "updateForeground": "pale"
       },
       "Button.installFillForeground": "white",
-      "SearchField.background": "lightTeal"
+      "SearchField.background": "textArea"
     },
     "Table": {
       "focusCellBackground": "lightPink",
@@ -352,6 +375,22 @@
       "inactiveForeground": "lavender",
       "selectionBackground": "lightestBlue",
       "selectionForeground": "accentText"
+    },
+
+    "Component": {
+      "warningFocusColor": "#ffb307"
+    },
+
+    "ToolTip": {
+      "Actions": {
+        "infoForeground": "yellow"
+      },
+      "infoForeground": "yellow"
+    },
+
+    "TitlePane": {
+      "inactiveInfoForeground": "yellow",
+      "infoForeground": "yellow"
     },
 
     "UiDesigner": {
