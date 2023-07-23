@@ -59,8 +59,8 @@
       "successForeground": "pale",
       "selectionBackground": "lightestPink",
       "selectionForeground": "dark",
-      "selectionInactiveBackground": "mulberry",
-      "selectionBackgroundInactive": "mulberry",
+      "selectionInactiveBackground": "lightPink",
+      "selectionBackgroundInactive": "lightPink",
       "disabledForeground": "lavender",
       "disabledBackground": "#280015",
       "inactiveBackground": "magentaHaze",
@@ -81,7 +81,7 @@
       "paintLines": true,
       "rowHeight": 22,
       "selectionBackground": "lightestPink",
-      "selectionInactiveBackground": "lightestPink",
+      "selectionInactiveBackground": "lightPink",
       "selectionForeground": "dark",
       "selectionInactiveForeground": "dark"
     },
@@ -121,10 +121,12 @@
         "startBorderColor": "#2f1f39",
         "endBorderColor": "#2f1f39",
         "focusedBorderColor": "#352040",
-        "focusColor": "#352040"
+        "focusColor": "#352040",
+        "foreground": "white"
       },
       "disabledText": "lavender",
-      "disabledBorderColor": "darkMauve"
+      "disabledBorderColor": "darkMauve",
+      "foreground": "white"
     },
     "ProgressBar": {
       "trackColor": "#412647",
@@ -196,6 +198,8 @@
     },
     "ToolWindow": {
       "background": "pinkBG",
+      "informativeForeground": "#abb2bf",
+      "informativeBackground": "#4b1d62",
       "Header": {
         "background": "byzantium",
         "inactiveBackground": "byzantium2"
@@ -376,7 +380,7 @@
     },
 
     "CompletionPopup": {
-      "selectionInactiveBackground": "lightestPink",
+      "selectionInactiveBackground": "lightPink",
       "selectionBackground": "lightestPink",
       "selectionForeground": "dark",
       "selectionInactiveForeground": "dark"
@@ -384,7 +388,7 @@
     "Focus.color": "lightestPink",
     "List": {
       "selectionBackground": "lightestPink",
-      "selectionInactiveBackground": "lightestPink",
+      "selectionInactiveBackground": "lightPink",
       "selectionForeground": "dark",
       "selectionInactiveForeground": "dark"
     },
