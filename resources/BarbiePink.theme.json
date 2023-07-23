@@ -14,6 +14,9 @@
     "byzantium": "#75335e",
     "byzantium2": "#532545",
     "purple": "#582876",
+    "fadedPinkDark": "#716799",
+    "fadedPink": "#5A5475",
+    "editorBG": "#1C081C",
     "ogSeparator": "#472e53",
     "pale": "#feeaf5",
     "white": "#FFFFFF",
@@ -26,12 +29,27 @@
     "accentText": "#002D3D",
     "teal": "#2b5b6e",
     "lightTeal": "#3b8fb0",
+    "textArea": "#3E6C7E",
+    "lightestBlue": "#9DCDE0",
     "almond": "#FBF1CB",
     "melon": "#F8C1AC",
     "dark": "#200010",
     "disableBack": "#3b312f",
     "defaultDisabled": "#646464",
-    "disabledLight": "#ababab"
+    "disabledLight": "#ababab",
+
+    "grey": "#d6d4d4",
+    "greyDark": "#bab6b6",
+    "backgroundLight": "#5A5475",
+    "backgroundDark": "#2a142d",
+    "textDark": "#F8F8F2",
+    "textLight": "#F8F8F2",
+
+    "yellow": "#DAAA01",
+    "lilac": "#BAA8FF",
+    "fadedRed": "#f5676f",
+    "pink": "#FFB8D1",
+    "pinkDark": "#ad5877"
   },
   "ui": {
     "*": {
@@ -61,7 +79,11 @@
       "hoverInactiveBackground": "#71468f",
       "modifiedItemForeground": "skyBlue",
       "paintLines": true,
-      "rowHeight": 22
+      "rowHeight": 22,
+      "selectionBackground": "lightestPink",
+      "selectionInactiveBackground": "lightestPink",
+      "selectionForeground": "dark",
+      "selectionInactiveForeground": "dark"
     },
     "EditorTabs": {
       "selectedForeground": "dark",
@@ -201,7 +223,9 @@
     },
 
     "Editor": {
-      "shortcutForeground": "skyBlue"
+      "shortcutForeground": "skyBlue",
+      "SearchField.background": "textArea",
+      "infoForeground": "popBlue"
     },
 
     "ComboBox": {
@@ -244,7 +268,8 @@
       "Projects":
       {
         "selectionInactiveBackground": "mauve"
-      }
+      },
+      "captionForeground": "white"
     },
     "Plugins": {
       "background": "mulberry",
@@ -299,30 +324,69 @@
     },
 
     "TextArea": {
-      "background": "teal",
-      "caretForeground": "darkTeal",
+      "background": "textArea",
+      "caretForeground": "skyBlue",
       "foreground": "white",
       "inactiveBackground": "darkMauve",
       "inactiveForeground": "lavender",
-      "selectionBackground": "lightestPink",
-      "selectionForeground": "dark"
+      "selectionBackground": "lightestBlue",
+      "selectionForeground": "accentText"
     },
     "TextField": {
-      "background": "teal",
-      "caretForeground": "darkTeal",
+      "background": "textArea",
+      "caretForeground": "skyBlue",
       "foreground": "white",
       "inactiveForeground": "lavender",
-      "selectionBackground": "lightestPink",
-      "selectionForeground": "dark"
+      "selectionBackground": "lightestBlue",
+      "selectionForeground": "accentText"
     },
     "TextPane": {
-      "background": "teal",
-      "caretForeground": "darkTeal",
+      "background": "textArea",
+      "caretForeground": "skyBlue",
       "foreground": "white",
       "inactiveBackground": "darkMauve",
       "inactiveForeground": "lavender",
+      "selectionBackground": "lightestBlue",
+      "selectionForeground": "accentText"
+    },
+
+    "UiDesigner": {
+      "Activity.borderColor": "grey",
+      "ColorPicker.background": "backgroundLight",
+      "ColorPicker.foreground": "textLight",
+      "Component.borderColor": "grey",
+      "Component.background": "backgroundLight",
+      "Component.foreground": "textLight",
+      "Connector.borderColor": "grey",
+      "Connector.hoverBorderColor": "fadedPink",
+      "Canvas.background": "fadedPink",
+      "highStroke.foreground": "textLight",
+      "Label.foreground": "greyDark",
+      "List.selectionBackground": "lightestPink",
+      "List.selectionForeground": "dark",
+      "Panel.borderColor": "grey",
+      "Panel.background": "backgroundLight",
+      "percent.foreground": "textLight",
+      "Placeholder.background": "backgroundLight",
+      "Placeholder.borderColor": "grey",
+      "Placeholder.foreground": "textLight",
+      "Placeholder.selectedForeground": "white",
+      "Preview.background": "backgroundLight",
+      "stroke.acceleratorForeground": "greyDark"
+    },
+
+    "CompletionPopup": {
+      "selectionInactiveBackground": "lightestPink",
       "selectionBackground": "lightestPink",
-      "selectionForeground": "dark"
+      "selectionForeground": "dark",
+      "selectionInactiveForeground": "dark"
+    },
+    "Focus.color": "lightestPink",
+    "List": {
+      "selectionBackground": "lightestPink",
+      "selectionInactiveBackground": "lightestPink",
+      "selectionForeground": "dark",
+      "selectionInactiveForeground": "dark"
     },
 
     "FileColor": {
