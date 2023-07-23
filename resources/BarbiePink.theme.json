@@ -155,7 +155,7 @@
       "separatorColor": "lightPink",
       "separatorForeground": "#c2aec7",
       "Advertiser": {
-        "background": "#755a82",
+        "background": "mulberry",
         "borderColor": "#2c2132",
         "borderInsets": "3,8,5,0"
       }
@@ -258,8 +258,8 @@
     },
 
     "ComboBox": {
-      "background" : "#52356c",
-      "nonEditableBackground": "#55356c",
+      "background" : "byzantium",
+      "nonEditableBackground": "magentaHaze",
       "ArrowButton": {
         "iconColor": "#e3e2f1",
         "disabledIconColor": "mauve",
