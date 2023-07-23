@@ -30,7 +30,9 @@
     "infoText": "#8c5885",
     "teal": "#2b5b6e",
     "lightTeal": "#3b8fb0",
-    "textArea": "#3E6C7E",
+    "textForeground": "#fff5dd",
+    "textArea": "#a2a3ce",
+    "lightPeriwinkle": "#C9CAE8",
     "lightestBlue": "#9DCDE0",
     "almond": "#FBF1CB",
     "melon": "#F8C1AC",
@@ -353,27 +355,27 @@
     "TextArea": {
       "background": "textArea",
       "caretForeground": "skyBlue",
-      "foreground": "white",
+      "foreground": "textForeground",
       "inactiveBackground": "darkMauve",
       "inactiveForeground": "lavender",
-      "selectionBackground": "lightestBlue",
+      "selectionBackground": "lightPeriwinkle",
       "selectionForeground": "accentText"
     },
     "TextField": {
       "background": "textArea",
       "caretForeground": "skyBlue",
-      "foreground": "white",
+      "foreground": "textForeground",
       "inactiveForeground": "lavender",
-      "selectionBackground": "lightestBlue",
+      "selectionBackground": "lightPeriwinkle",
       "selectionForeground": "accentText"
     },
     "TextPane": {
       "background": "textArea",
       "caretForeground": "skyBlue",
-      "foreground": "white",
+      "foreground": "textForeground",
       "inactiveBackground": "darkMauve",
       "inactiveForeground": "lavender",
-      "selectionBackground": "lightestBlue",
+      "selectionBackground": "lightPeriwinkle",
       "selectionForeground": "accentText"
     },
 
